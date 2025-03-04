@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revolusi Industri 2.0</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff0000;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: rgb(255, 0, 0);
+}
+
+.navbar .menu {
+    display: flex;
+}
+
+.navbar .menu a {
+    display: block;
+}
+
+.navbar .toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.navbar .toggle div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+@media (max-width: 768px) {
+    .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar .menu a {
+        text-align: center;
+        padding: 10px;
+        border-top: 1px solid #ddd;
+    }
+    .navbar .toggle {
+        display: flex;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#" class="Portofolio Sejarah">Portofolio Sejarah</a>
+        <div class="toggle" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="menu">
+            <a href="Index.html">Revolusi Industri 1.0</a>
+            <a href="Revolusi Industri 2.0.html">Revolusi Industri 2.0</a>
+            <a href="Revolusi Industri 3.0.html">Revolusi Industri 3.0</a>
+            <a href="Revolusi Industri 4.0.html">Revolusi Industri 4.0</a>
+            <a href="Kesimpulan.html">Kesimpulan</a>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.navbar .menu');
+            menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+        }
+    </script>
+    <h1>Revolusi Industri 2.0 (Akhir abad ke-19 hingga awal abad ke-20)</h1>
+    <p>Revolusi Industri 2.0 adalah revolusi industri yang kedua di dunia.</p>
+    <p>Periode: Sekitar tahun 1870 – 1914</p>
+    <p>Inovasi Utama: Listrik, produksi massal, dan mobil</p>
+    <p>Penemuan Kunci:</p>
+    <p>Penemuan listrik dan penerapan di pabrik-pabrik dan rumah tangga (penemuan Thomas Edison).</p>
+    <p>Henry Ford memperkenalkan lini perakitan untuk produksi massal mobil.</p>
+    <p>Penemuan seperti telepon oleh Alexander Graham Bell dan pesawat terbang oleh Wright Brothers.</p>
+    <p>Perubahan Besar:</p>
+    <ul>
+        <li>Kemajuan besar dalam industri otomotif, besi, dan baja.</li>
+        <li>Kemunculan perusahaan besar dan pengembangan sistem produksi massal.</li>
+        <li>Penggunaan listrik untuk menggerakkan mesin pabrik dan menyalakan lampu.</li>
+        <li>Komunikasi menjadi lebih efisien dengan adanya telepon dan telegraf.</li>   
+    <p>Dampak Sosial dan Ekonomi:</p>
+    <ul>
+        <li>Pekerjaan lebih terstruktur dan lebih banyak dilakukan di pabrik.</li>
+        <li>Peningkatan produktivitas dan produksi barang.</li>
+        <li>Munculnya standar hidup yang lebih baik, namun juga ketegangan pekerja yang berjuang untuk hak-hak mereka.</li>
+        <li>Perubahan dalam struktur sosial, dengan kelas pekerja dan kelas menengah yang semakin berkembang.</li>
+    </ul>
+    <img src="c:\Users\hp\Downloads\th (2).jpg" alt="Revolusi Industri 1.0" style="width:100%;max-width:600px;">
+    <p>Sumber: Wikipedia</p>
+    <div class="footer">
+        &copy; 2025 Ky_12. All rights reserved.
+    </div>
+</body>
+</html>

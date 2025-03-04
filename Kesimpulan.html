@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kesimpulan</title>
+    <style>
+       body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff0000;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: rgb(255, 0, 0);
+}
+
+.navbar .menu {
+    display: flex;
+}
+
+.navbar .menu a {
+    display: block;
+}
+
+.navbar .toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.navbar .toggle div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+@media (max-width: 768px) {
+    .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar .menu a {
+        text-align: center;
+        padding: 10px;
+        border-top: 1px solid #ddd;
+    }
+    .navbar .toggle {
+        display: flex;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#" class="Portofolio Sejarah">Portofolio Sejarah</a>
+        <div class="toggle" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="menu">
+            <a href="Index.html">Revolusi Industri 1.0</a>
+            <a href="Revolusi Industri 2.0.html">Revolusi Industri 2.0</a>
+            <a href="Revolusi Industri 3.0.html">Revolusi Industri 3.0</a>
+            <a href="Revolusi Industri 4.0.html">Revolusi Industri 4.0</a>
+            <a href="Kesimpulan.html">Kesimpulan</a>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.navbar .menu');
+            menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+        }
+    </script>
+    <h1>Kesimpulan</h1>
+    <p>Revolusi Industri terus berkembang dengan pesat, dimulai dari pengenalan mesin uap di Revolusi Industri 1.0, pengenalan listrik dan produksi massal di 2.0, hingga teknologi komputer dan otomatisasi di 3.0, dan sekarang di 4.0 dengan penggunaan AI, big data, dan IoT. Setiap gelombang revolusi ini membawa perubahan besar dalam cara kita bekerja, berinteraksi, dan memproduksi barang, serta memengaruhi ekonomi dan masyarakat secara luas.</p>
+    <p>Sumber: Wikipedia</p>
+    <div class="footer">
+        &copy; 2025 Ky_12. All rights reserved.
+    </div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revolusi Industri 4.0</title>
+    <style>
+         body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff0000;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: rgb(255, 0, 0);
+}
+
+.navbar .menu {
+    display: flex;
+}
+
+.navbar .menu a {
+    display: block;
+}
+
+.navbar .toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.navbar .toggle div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+@media (max-width: 768px) {
+    .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar .menu a {
+        text-align: center;
+        padding: 10px;
+        border-top: 1px solid #ddd;
+    }
+    .navbar .toggle {
+        display: flex;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#" class="Portofolio Sejarah">Portofolio Sejarah</a>
+        <div class="toggle" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="menu">
+            <a href="Index.html">Revolusi Industri 1.0</a>
+            <a href="Revolusi Industri 2.0.html">Revolusi Industri 2.0</a>
+            <a href="Revolusi Industri 3.0.html">Revolusi Industri 3.0</a>
+            <a href="Revolusi Industri 4.0.html">Revolusi Industri 4.0</a>
+            <a href="Kesimpulan.html">Kesimpulan</a>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.navbar .menu');
+            menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+        }
+    </script>
+    <h1>Revolusi Industri 4.0 (Sekarang)</h1>
+    <p>Revolusi Industri 4.0 adalah revolusi industri yang keempat di dunia.</p>
+    <p>Periode: 2010 – sekarang</p>
+    <p>Inovasi Utama: Internet of Things (IoT), kecerdasan buatan (AI), Big Data, dan sistem cyber-fisik</p>
+    <p>Penemuan Kunci:</p>
+    <p>Pengembangan dan penerapan Internet of Things (IoT), yang menghubungkan perangkat fisik ke internet.</p>
+    <p>Kemajuan pesat dalam kecerdasan buatan (AI), pembelajaran mesin, dan otomatisasi tingkat tinggi.</p>
+    <p>Penggunaan big data untuk menganalisis pola konsumsi dan produksi secara lebih efisien.</p>
+    <p>Munculnya teknologi seperti kendaraan otonom dan robot cerdas dalam berbagai industri.</p>
+    <p>Perubahan Besar:</p>
+    <ul>
+        <li>Integrasi teknologi digital, fisik, dan biologis dalam produksi dan kehidupan sehari-hari.</li>
+        <li>Otomatisasi dan kecerdasan buatan semakin mendominasi hampir semua sektor, termasuk manufaktur, perawatan kesehatan, dan pendidikan.</li>
+        <li>Perkembangan teknologi blockchain, yang memungkinkan sistem transaksi lebih aman dan transparan.</li>
+        <li>Pembentukan jaringan global berbasis data yang memungkinkan pengambilan keputusan lebih cerdas dan cepat.</li>
+    </ul>
+    <p>Dampak Sosial dan Ekonomi:</p>
+    <ul>
+        <li>Perubahan besar dalam cara kita bekerja dan berinteraksi dengan teknologi.</li>
+        <li>Keterampilan baru diperlukan untuk beradaptasi dengan teknologi yang terus berk
+        embang, seperti analitik data dan pengembangan AI.</li>
+        <li>Peningkatan kecerdasan buatan dan otomatisasi mempengaruhi pekerjaan manusia, dengan beberapa pekerjaan hilang, sementara yang lain muncul dalam bidang teknologi dan data.</li>
+        <li>Peningkatan ketergantungan pada teknologi dan digitalisasi di hampir semua sektor kehidupan.</li>
+    </ul>
+    <img src="c:\Users\hp\Downloads\th.jpg" alt="Revolusi Industri 1.0" style="width:100%;max-width:600px;">
+    <p>Sumber: Wikipedia</p>
+    <div class="footer">
+        &copy; 2025 Ky_12. All rights reserved.
+    </div>
+</body>
+</html>

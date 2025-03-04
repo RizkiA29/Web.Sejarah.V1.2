@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revolusi Industri 3.0</title>
+    <style>
+       body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff0000;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: rgb(255, 0, 0);
+}
+
+.navbar .menu {
+    display: flex;
+}
+
+.navbar .menu a {
+    display: block;
+}
+
+.navbar .toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.navbar .toggle div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+@media (max-width: 768px) {
+    .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar .menu a {
+        text-align: center;
+        padding: 10px;
+        border-top: 1px solid #ddd;
+    }
+    .navbar .toggle {
+        display: flex;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#" class="Portofolio Sejarah">Portofolio Sejarah</a>
+        <div class="toggle" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="menu">
+            <a href="Index.html">Revolusi Industri 1.0</a>
+            <a href="Revolusi Industri 2.0.html">Revolusi Industri 2.0</a>
+            <a href="Revolusi Industri 3.0.html">Revolusi Industri 3.0</a>
+            <a href="Revolusi Industri 4.0.html">Revolusi Industri 4.0</a>
+            <a href="Kesimpulan.html">Kesimpulan</a>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.navbar .menu');
+            menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+        }
+    </script>
+    <h1>Revolusi Industri 3.0 (Akhir abad ke-20 hingga awal abad ke-21)</h1>
+    <p>Revolusi Industri 3.0 adalah revolusi industri yang ketiga di dunia.</p>
+    <p>Periode: Sekitar tahun 1960 – 2000</p>
+    <p>Inovasi Utama: Komputer, otomatisasi, dan elektronik</p>
+    <p>Penemuan Kunci:</p>
+    <p>Penemuan dan penyebaran komputer serta teknologi informasi.</p>
+    <p>Otomatisasi melalui penggunaan robot di pabrik dan penggunaan teknologi digital untuk pengendalian produksi.</p>
+    <p>Jaringan komunikasi global melalui internet dan sistem telekomunikasi yang lebih canggih.</p>
+    <p>Perubahan Besar:</p>
+    <ul>
+        <li>Peralihan dari produksi berbasis tenaga manusia ke sistem yang lebih otomatis dengan penggunaan robot dan komputer.</li>
+        <li>Komputer pertama kali digunakan untuk pengelolaan pabrik dan proses produksi.</li>
+        <li>Penemuan sistem informasi berbasis komputer yang memungkinkan pengelolaan sumber daya lebih efisien.</li>
+        <li>Teknologi digital dan elektronik mempercepat produksi barang dan memberikan lebih banyak variasi produk.</li>
+    </ul>
+    <p>Dampak Sosial dan Ekonomi:</p>
+    <ul>
+        <li>Pertumbuhan pesat dalam industri teknologi informasi.</li>
+        <li>Otomatisasi menyebabkan pengurangan tenaga kerja manusia, namun menciptakan lapangan kerja baru di sektor teknologi.</li>
+        <li>Terjadi peningkatan globalisasi karena kemudahan komunikasi dan informasi.</li>
+        <li>Munculnya ekonomi berbasis pengetahuan dan sektor jasa yang lebih dominan.</li>
+    </ul>
+    <img src="c:\Users\hp\Downloads\th (1).jpg" alt="Revolusi Industri 1.0" style="width:100%;max-width:600px;">
+    <p>Sumber: Wikipedia</p>
+    <div class="footer">
+        &copy; 2025 Ky_12. All rights reserved.
+    </div>
+</body>
+</html>
