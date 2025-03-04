@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revolusi Industri 1.0</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff0000;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: rgb(255, 0, 0);
+}
+
+.navbar .menu {
+    display: flex;
+}
+
+.navbar .menu a {
+    display: block;
+}
+
+.navbar .toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.navbar .toggle div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+@media (max-width: 768px) {
+    .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar .menu a {
+        text-align: center;
+        padding: 10px;
+        border-top: 1px solid #ddd;
+    }
+    .navbar .toggle {
+        display: flex;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#" class="Portofolio Sejarah">Portofolio Sejarah</a>
+        <div class="toggle" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="menu">
+            <a href="Index.html">Revolusi Industri 1.0</a>
+            <a href="Revolusi Industri 2.0.html">Revolusi Industri 2.0</a>
+            <a href="Revolusi Industri 3.0.html">Revolusi Industri 3.0</a>
+            <a href="Revolusi Industri 4.0.html">Revolusi Industri 4.0</a>
+            <a href="Kesimpulan.html">Kesimpulan</a>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.navbar .menu');
+            menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+        }
+    </script>
+        <h1>Revolusi Industri 1.0 (Akhir abad ke-18 hingga awal abad ke-19)</h1>
+        <p>Revolusi Industri 1.0 adalah revolusi industri yang pertama di dunia.</p>
+        <p>Periode: Sekitar tahun 1760 – 1840</p>
+<p>Inovasi Utama: Mesin uap dan mekanisasi produksi</p>
+<p>Penemuan Kunci: James Watt mengembangkan mesin uap yang lebih efisien, yang memungkinkan penggantian tenaga manusia dan hewan dalam berbagai industri.</p>
+<p>Perubahan Besar:</p>
+<ul>
+    <li>Terjadi perubahan besar dalam sektor manufaktur, terutama dalam industri tekstil.</li>
+    <li>Pabrik-pabrik pertama kali muncul dengan mesin untuk memproduksi barang-barang dalam jumlah besar.</li>
+    <li>Perkembangan sistem transportasi, seperti kereta api dan kapal uap, mempermudah distribusi barang.</li>
+    <li>Peralihan dari ekonomi agraris ke ekonomi industri, yang menyebabkan urbanisasi pesat.</li>
+</ul>
+<p>Dampak Sosial dan Ekonomi:</p>
+<ul>
+    <li>Meningkatnya produksi barang dan efisiensi.</li>
+    <li>Penggunaan tenaga kerja yang besar, sering kali dalam kondisi buruk di pabrik-pabrik.</li>
+    <li>Munculnya kelas pekerja dan peningkatan ketimpangan sosial.</li>
+</ul>
+<img src="c:\Users\hp\Downloads\th (3).jpg" alt="Revolusi Industri 1.0" style="width:100%;max-width:600px;">
+<p>Sumber: Wikipedia</p>
+<div class="footer">
+    &copy; 2025 Ky_12. All rights reserved.
+</div>
+    </body>
+    </html>
